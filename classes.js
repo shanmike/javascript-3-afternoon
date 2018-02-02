@@ -189,8 +189,7 @@ class Machine {
    this.wear_and_tear_count -= 10
    this.needs_reboot = false;
     var done = () =>{
-      
-      return "The machine is dont rebooting"
+      return "The machine is done rebooting"
     }
     return done;
   }
